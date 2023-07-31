@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main{
+    margin: 1rem auto;
+    width: 350px;
+    text-align: center;
+}
+
+
+.card{
+    background: #fff;
+    /* box-shadow: 0 0 8px rgba(0, 0, 0, 0.2); */
+    border: 1px solid #DBDBDB;
+    overflow: hidden;
+    padding: 20px 35px;
+    
+}
+
+.card img{
+    width: 60%;
+    margin: 20px;
+}
+form{
+    /* background: indianred; */
+    width: 100%;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4px;
+}
+form input{
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #DBDBDB;
+}
+
+form input::placeholder{
+    font-size: 12px;
+    
+}
+
+form button{
+    border: none;
+    border-radius: 8px;
+    margin: 6px;
+    width: 100%;
+    padding: 8px 0;
+    background: #4BB4F8;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+}
+.or-seprator{
+    display: flex;
+    position: relative;
+    width: 100%;
+    /* background: fuchsia; */
+    justify-content: center;
+    
+}
+.or-seprator span{
+  
+    position: absolute;
+    background: #fff;
+    padding: 0 20px;
+    color: rgb(115, 115, 115);
+    font-weight: 600;
+    font-size: 13px;
+    top: 6PX;
+
+}
+
+.or-bar{
+    margin-top: 15px;
+width: 100%;
+height: 1px;
+background: #73737357;
+
+
+}
+
+.fb-login{
+    margin: 20px 0;
+    font-size: 14px;
+    color: rgb(56,82,154);
+    font-weight: 600;
+}
+.fb-login img{
+    width: 15px;
+margin: 0;
+margin-right: 5px;
+}
+
+.fb-login +p{
+    /* margin-top: px; */
+    font-size: 13px;
+    color: rgb(56,82,154);
+}
+
+.signup{
+    margin: 10px 0;
+    font-size: 14px;
+
+}
+.signup span{
+    color: #4BB4F8;
+    font-weight: 600;
+}
+
+.get-in{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    
+    margin-top: 10px;
+
+}
+.get-in-container{
+    font-size: 14px;
+    margin-top: 5px;
+}
+.get-in img{
+    width: 120px;
+    height: 40px;
+}
+footer{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(115, 115, 115);
+    margin: 80px 0;
+}
+footer ul{
+    width: 70%;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+  
+    
+}
+footer ul li{
+    display: inline-block;
+    margin-right:15px;
+    margin-bottom: 5px;
+}
+footer ul li:hover{
+    /* flex: 1 0 100px; */
+cursor: pointer;
+text-decoration: underline;
+}
+
+footer p{
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+footer select{
+    border: none;
+    color: rgb(115, 115, 115);
+    margin-right: 10px;
+    /* padding: 30px; */
+}
